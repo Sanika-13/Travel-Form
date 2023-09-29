@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Form</title>
+  </head>
+  <body style="background-color: #ff00e7a3">
+    <div>
+      <form action="form.html">
+        <h1>Bored? Let's go🌝...</h1>
+        <img src="travel.jpg" width="350" alt="image" /><br /><br />
+
+        <label for="name">●Name: </label>
+        <input type="text" placeholder="First Name" />
+        <input type="text" placeholder="Middle Name" />
+        <input type="text" placeholder="Last Name" /><br /><br />
+
+        <label for="Dateofbirth">●DOB</label>
+        <input type="date" placeholder="blank" /><br /><br />
+
+        <label for="email">●Email</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email id"
+        />
+        <br /><br />
+        <label for="phone">●Phone Number</label>
+        <input type="tel" placeholder="Enter your PhoneNo" /><br /><br />
+
+        <textarea
+          name="explain"
+          id="explain"
+          cols="40"
+          rows="10"
+          placeholder="Address"
+        ></textarea>
+        <br /><br />
+
+        <label for="country">●Country</label>
+        <input type="text" placeholder="Enetr Your Country" /><br />
+        <br />
+        <label for="state">●State</label>
+        <input type="text" placeholder="Enter your State" /><br /><br />
+        <select name="country" id="country">
+          <option value="no-country">Select where you want to go</option>
+          <option value="India">India</option>
+          <option value="Londan">Londan</option>
+          <option value="America">America</option>
+          <option value="Italy">Italy</option>
+          <option value="Korea">Korea</option>
+          <option value="canada">canada</option>
+          <option value="Australia">Australia</option>
+          <option value="France">France</option>
+          <option value="Other country">Other</option></select
+        ><br /><br />
+        <button type="submit" form="form1" value="Submit">Submit</button>
+      </form>
+
+    </div>
+  </body>
+</html>
